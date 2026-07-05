@@ -31,7 +31,31 @@
 
 ## 🚀 快速开始
 
-### 方式一：下载预编译二进制（推荐）⭐
+### 🐧 Linux 一键安装（推荐）⭐
+
+最简单的安装方式，一条命令完成所有配置：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/zhuvps1-hub/Bnk/main/install.sh | bash
+```
+
+或使用 wget：
+
+```bash
+wget -q -O - https://raw.githubusercontent.com/zhuvps1-hub/Bnk/main/install.sh | bash
+```
+
+**安装脚本会自动：**
+- ✅ 检测系统架构（x86_64/ARM64）
+- ✅ 下载最新版本
+- ✅ 安装到 `/usr/local/bin`
+- ✅ 创建配置文件
+- ✅ 可选创建 Systemd 服务
+- ✅ 可选开机自启
+
+详见 [Linux 安装指南](./INSTALL.md)
+
+### 方式一：下载预编译二进制
 
 从 [Release](https://github.com/zhuvps1-hub/Bnk/releases) 页面下载对应平台的预编译文件：
 
@@ -503,6 +527,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 - **Issue 反馈**：[GitHub Issues](https://github.com/zhuvps1-hub/Bnk/issues)
 - **讨论区**：[GitHub Discussions](https://github.com/zhuvps1-hub/Bnk/discussions)
+- **安装指南**：[Linux 一键安装](./INSTALL.md)
 
 ## 👤 作者
 
@@ -510,4 +535,4 @@ Maintained by [zhuvps1-hub](https://github.com/zhuvps1-hub)
 
 ---
 
-**快速开始**：[下载最新版本](https://github.com/zhuvps1-hub/Bnk/releases) | [查看配置示例](./example-config.yaml)
+**快速开始**：[下载最新版本](https://github.com/zhuvps1-hub/Bnk/releases) | [查看配置示例](./example-config.yaml) | [Linux 一键安装](./INSTALL.md)
